@@ -8,3 +8,14 @@
 ### Learnings
 
 - Module > Package > File > Function
+- `go mod init <package name>`
+- `go get -u && go mod tidy`
+
+## Tutorial 2
+
+- [Create module](https://go.dev/doc/tutorial/create-module)
+
+### Learnings
+
+- `fmt.Sprintf()` eqivalent JS Template literal
+- `go mod edit -replace <package name>=<package local path>`
