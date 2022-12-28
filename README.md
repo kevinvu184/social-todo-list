@@ -19,3 +19,9 @@
 
 - `fmt.Sprintf()` eqivalent JS Template literal
 - `go mod edit -replace <package name>=<package local path>`
+- The `init()` function
+- [bultin](https://pkg.go.dev/builtin)
+
+- Array: `[array-length]value-type`
+- Map: `map[key-type]value-type`
+- Slice: `[]value-type`

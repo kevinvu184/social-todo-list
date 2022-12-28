@@ -22,10 +22,11 @@ func main() {
 
 	fmt.Println(message)
 
-	message2, err2 := greetings.Hello("")
-	if err2 != nil {
-		log.Fatal(err2)
-	}
 
-	fmt.Println(message2)
+    names := []string{"Gladys", "Samantha", "Darrin"}
+    messages, err := greetings.Hellos(names)
+    if err != nil {
+        log.Fatal(err)
+    }
+    fmt.Println(messages)
 }
