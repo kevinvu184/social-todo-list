@@ -1,0 +1,59 @@
+openapi: 3.0.0
+info:
+  contact:
+    email: kevinvu184@gmail.com
+    name: Kevin Vu
+    url: "https://github.com/kevinvu184"
+  description: ""
+  title: Social Todo
+  version: v1
+paths:
+  /todos:
+    get:
+      description: Read todo
+      responses:
+        "200":
+          description: Successful operation
+      tags:
+        - Todo
+    post:
+      description: Create todo
+      responses:
+        "200":
+          description: Successful operation
+      tags:
+        - Todo
+  "/todos/{todoID}":
+    delete:
+      description: Delete todo
+      parameters:
+        - description: Todo ID
+          in: path
+          name: todoID
+          required: true
+          schema:
+            format: uuid
+            type: string
+      responses:
+        "200":
+          description: Successful operation
+      tags:
+        - Todo
+    put:
+      description: Update todo
+      parameters:
+        - description: Todo ID
+          in: path
+          name: todoID
+          required: true
+          schema:
+            format: uuid
+            type: string
+      responses:
+        "200":
+          description: Successful operation
+      tags:
+        - Todo
+servers:
+  - description: Localhost
+    url: "http://localhost:8000"

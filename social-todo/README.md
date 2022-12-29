@@ -1,4 +1,4 @@
-# Social to do
+# Social Todo
 
 1. Install [Docker Desktop for Mac](https://docs.docker.com/desktop/install/mac-install/)
 2. Pull the Dynamodb-local image `docker pull amazon/dynamodb-local`
@@ -31,4 +31,5 @@
 
 - [DynamoDB Local](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.UsageNotes.html)
 - [NoSQL Workbench](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.html)
-- [DynamoDB CLI](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/dynamodb/index.html)
+- [AWS DynamoDB CLI](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/dynamodb/index.html)
+- [API design](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/#h-accept-and-respond-with-json)
