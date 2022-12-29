@@ -29,6 +29,6 @@
 
 ## Important link
 
-[DynamoDB local](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.UsageNotes.html)
-[NoSQL Workbench](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.html)
-[DynamoDB cli](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/dynamodb/index.html)
+- [DynamoDB Local](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.UsageNotes.html)
+- [NoSQL Workbench](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.html)
+- [DynamoDB CLI](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/dynamodb/index.html)
