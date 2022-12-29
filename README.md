@@ -1,1 +1,1 @@
-# Go pet project
+# Go pet projects
