@@ -33,3 +33,5 @@
 - [NoSQL Workbench](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.html)
 - [AWS DynamoDB CLI](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/dynamodb/index.html)
 - [API design](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/#h-accept-and-respond-with-json)
+- [AWS Go SDK](https://aws.github.io/aws-sdk-go-v2/docs)
+  - [AWS Go SDK API](https://pkg.go.dev/github.com/aws/aws-sdk-go-v2)
