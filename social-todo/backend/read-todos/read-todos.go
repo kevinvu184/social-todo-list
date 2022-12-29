@@ -31,8 +31,8 @@ func main() {
 	}
 
 	r := struct {
-		ID string `dynamodbav:"todoID"`
-	}{ID: "dc23d17e-798f-434e-b068-ab1d1121d006"}
+		TodoID string `dynamodbav:"todoID"`
+	}{TodoID: "dc23d17e-798f-434e-b068-ab1d1121d006"}
 
 	avs, err := attributevalue.MarshalMap(r)
 	if err != nil {
